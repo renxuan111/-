@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE configuration PUBLIC "http://mybatis.org/dtd/mybatis-3-config.dtd"  "-//mybatis.org//DTD Config 3.0//EN">
+
+<configuration>
+
+<!-- 配置日志的实现 log4j-->
+
+
+
+<settings>
+
+<!-- <setting value="STDOUT_LOGGING" name="logImpl"/> -->
+
+</settings>
+
+
+<typeAliases>
+
+<package name="com.bdqn.rongke.BBSSystem.entity"/>
+
+</typeAliases>
+
+<!-- 配置运行环境，数据库连接信息，可以配置多套数据库连接 -->
+
+
+
+<environments default="development">
+
+<!--配置第一个默认的环境 -->
+
+
+
+<environment id="development">
+
+<!-- 配置事务处理采用JDBC的事务处理-->
+
+
+<transactionManager type="JDBC"/>
+
+<!-- 数据源，用于数据库的连接 -->
+
+
+<!-- 连接的类型采用Mybatis自带的连接池连接-->
+
+
+<!-- JNDI：基于Tomcat的连接 -->
+
+
+
+<dataSource type="POOLED">
+
+<!-- 属性 -->
+
+
+<property value="com.mysql.jdbc.Driver" name="driver"/>
+
+<property name="url" value="jdbc:mysql://localhost:3306/bbs?characterEncoding=utf-8&amp;useSSL=true" />
+<property value="root" name="username"/>
+
+<property value="123456" name="password"/>
+
+</dataSource>
+
+</environment>
+
+</environments>
+<mappers>
+
+<mapper resource="mapper/mapper.xml"/>
+
+</mappers>
+
+</configuration>

@@ -1,0 +1,88 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-decoration: none;
+	
+	font-size: 14px;
+}
+#zero{
+	width: 1346px;
+	height: 2500px;
+	background: #E0FFFF;
+	position: relative;
+}
+
+#one li{
+	margin-left: 20px;
+	margin-top: 5px;
+	float: left;
+	text-decoration: underline;
+}
+#one {
+	width: 100%;
+	height: 30px;
+	border: 1px solid white;
+	border-bottom-color: gainsboro;
+	background: white;
+}
+#two{
+	width: 100%;
+	height: 100px;
+	/*border: 1px solid black;*/
+	background: white;
+}
+#two li{
+		float: left;
+		margin-top: 35px;
+		margin-left: 10px;
+}
+#there{
+	margin-left: 15%;
+	background: whitesmoke;
+}
+#there li{
+	float: left;
+	font-size: 20px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+#fiv{
+	border: 1px solid gainsboro;
+	background: gainsboro;
+	width: 70%;
+	margin-left: 15%;
+}
+#fiv li{
+	float: left;
+	margin-top: 10px;
+}
+#fiv-1{
+	width: 180px;
+	height: 50px;
+	border: 1px solid gainsboro;
+	margin-left: 80%;
+	margin-top:-50px;
+	background: white;
+	
+}
+#fiv-1 li{
+	float: left;
+}
+#eight{
+	width: 73%;
+	height: 500px;
+	margin-left: 15%;
+	border:1px solid red;
+	background: ghostwhite;
+}
+#eight-1{
+	width: 100%;
+	height: 50px;
+	border: 1px solid bisque;
+}
+#eight-1 li{
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}

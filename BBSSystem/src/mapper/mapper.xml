@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "http://mybatis.org/dtd/mybatis-3-mapper.dtd"  "-//mybatis.org//DTD Mapper 3.0//EN">
+
+<!--命名空间。该Mapper对应的接口名字 -->
+
+-
+<mapper
+	namespace="com.bdqn.rongke.BBSSystem.daoInterface.DaoInterface">
+
+	<!-- SQL语句 -->
+
+
+	
+<select id="postmess" resultType="Post">
+select * from t_post where t_post.pid=#{pid}
+</select>
+	
+
+	<!--返回集合？？？ -->
+
+
+	<!-- <select id="getIndexDao" resultType="java.util.HashMap">select * from(select
+		distinct t_post.*,count(t_reply.rcontent) replyCountfrom t_post left
+		join t_reply on t_post.id=t_reply.pid group by t_post.id) a,t_user
+		where a.uid=t_user.id order by a.adddate desc </select>
+
+	配置结果集的映射 -->
+
+
+
+	
+	<!-- <resultMap id="postList"
+		type="com.bdqn.rongke.BBSSystem.entity.Post">
+
+		<result column="id" property="id" />
+
+		<result column="content" property="content" />
+
+		<result column="uid" property="uid" />
+ 
+		<result column="addDate" property="addDate" />
+
+	</resultMap> -->
+
+	
+</mapper>

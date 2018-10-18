@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+.top{
+	/*border: 1px solid red;*/
+	width: 800px;
+	height: 600px;
+	margin: 0px auto;
+}
+img{
+	float: left;
+}
+
+.first{
+	/*border: 1px solid red;*/
+	
+	width: 800px;
+	height: 80px;	
+}
+
+.two{
+	/*border: 1px solid red;*/
+	width: 500px;
+	height: 500px;
+	float: left;
+}
+.five{
+	/*border: 1px solid red;*/
+	width: 500px;
+	height: 500px;
+	margin:50px auto;
+}
+.three{
+	/*border: 1px solid red;*/
+	width: 296px;
+	height: 500px;
+	float: left;
+}
+.four{
+	/*border: 1px solid red;*/
+	width: 261px;
+	height: 408px;
+	margin: 50px auto;
+}
+.zore{
+	/*border:#00FF00 1px solid;*/
+	width: 100px;
+	height: 20px;
+	margin-top: 30px;
+	float: left;
+}
